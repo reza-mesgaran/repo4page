@@ -8,4 +8,6 @@ jobs:
       - name: check-out my repo
         uses: actions/checkout@v2
       - name: setup Python
-        uses: actions/setup-python
+        uses: actions/setup-python@v2
+      - name: push my repo
+        run: git add .
