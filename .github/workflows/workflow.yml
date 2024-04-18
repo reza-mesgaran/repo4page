@@ -9,6 +9,7 @@ jobs:
      - name: setup Phyton
        uses: actions/setup-python
      - name: push my repo
+run:
 git add .
 git commit -m "my new commit"
 git push
