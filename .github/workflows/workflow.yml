@@ -1,16 +1,16 @@
 name: This is a sample workflow 
-on: [push]
+on:
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-     - name: check-out my repo
-       uses: actions/checkout@v2
-     - name: setup Phyton
-       uses: actions/setup-python
-     - name: push my repo
-run:
-git add .
-git commit -m "my new commit"
-git push
+      - name: check-out my repo
+        uses: actions/checkout@v2
+      - name: setup Python
+        uses: actions/setup-python
+      - name: push my repo
+        run: git add .
+             git commit -m "my new commit"
+             git push
     
