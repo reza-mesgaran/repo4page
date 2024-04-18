@@ -9,7 +9,7 @@ jobs:
      - name: setup Phyton
        uses: actions/setup-python
      - name: push my repo
-git config user.name Github-actions
+git config reza.mesgaran Github-actions
 git add .
 git commit -m "my new commit"
 git push
