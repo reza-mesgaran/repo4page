@@ -1,1 +1,1 @@
-t.txt has changed! (main)
+t.txt has changed (main & cloned)
