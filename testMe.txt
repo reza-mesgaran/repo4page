@@ -1,4 +1,1 @@
-
-This is a test TXT file
-One line added to this file
-Changed
+changein f1 TXT1
