@@ -1,3 +1,3 @@
-(changed in copy-main)
+Fix Conflict - Keep both changes in TXT1 (Main + CopyOfMain) !!!
 This is a test TXT file
 One line added to this file
