@@ -1,1 +1,1 @@
-changein f1 TXT1
+CHANGE f1 TXT1
