@@ -1,12 +1,11 @@
 name: ShowServerDate_Action
 on:
   schedule:  
-  - cron: '*/5,*,*,*,*'
+    - cron: '*/2 * * * *'
   
 jobs:
   myJob:
-  runs-on: ubuntu-latest
-  steps :
-    - name: show current date
-      run: echo "current server date is ($date)"
-
+    runs-on: ubuntu-latest
+    steps:
+      - name: show current date
+        run: echo "current server date is $(date)"
